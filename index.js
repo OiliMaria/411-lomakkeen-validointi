@@ -13,7 +13,7 @@ function validate() {
     if(salasana.length > 5 && salasana.match(/[a-z]/) && salasana.match(/[A-Z]/) && salasana.match(/\d/) && salasana.match(/[^a-zA-Z\d]/)) {
         ilmoitus += "Salasana ok." +"<br>"
     } else {
-        ilmoitus += "Salanan pituus pitää olla vähintään 6 merkkiä, ja siinä pitää olla vähintään yksi numero ja erikoismerkki." +"<br>";
+        ilmoitus += "Salasanan pituus pitää olla vähintään 6 merkkiä, ja siinä pitää olla vähintään yksi numero ja erikoismerkki." +"<br>";
     }
 
     let nimi = document.forms['lomake']['nimi'].value;
